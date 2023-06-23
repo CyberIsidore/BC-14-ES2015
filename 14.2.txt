@@ -1,0 +1,19 @@
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+const PI = 3.14;
+PI = 42; // Error!
+
+
+What is the difference between var and let?
+-Both declare a variable and a identifier, but "let" variables cannot be redeclared, unlike "var."
+-"var" is function scoped while "const" is block scoped.
+
+What is the difference between var and const?
+-Both declare a variable and a identifier, but "const" variables cannot be redeclared or reassigned, unlike "var."
+-"var" is function scoped while "const" is block scoped.
+
+What is the difference between let and const?
+-Both declare a variable and a identifier, but "const" variables cannot be reassigned, unlike "let."
+
+What is hoisting?
+-
